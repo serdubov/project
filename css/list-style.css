@@ -1,0 +1,163 @@
+/* main-orange: #ff7800; 
+main-dark: #4a4a4a*/
+@font-face{
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto.ttf');
+}
+
+@font-face{
+    font-family: 'Robotobold';
+    src: url('/fonts/Robotobold.ttf');
+}
+
+.wrapper-list{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 99;
+}
+
+.header{
+    width: 100%;
+    position: absolute;
+    top: 15px;
+}
+.button_logo{
+    width: max-content;
+}
+.head_button{
+    width: 28px;
+    height: 28px;
+    border: 2px solid #4a4a4a;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #4a4a4a;
+    background-image: url("/img/shape_close.png");
+    background-size: cover;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.head_button:hover{
+    border: 2px solid #ff7800;
+    background-color: #ff7800;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.head_logo{
+    width: 70px;
+    height: 30px;
+    display: inline-block;
+    background-image: url("/img/yt_logo.svg");
+    background-size: cover;
+}
+.head_mail{
+    width: 28px;
+    height: 28px;
+    border: 2px solid #4a4a4a;
+    border-radius: 50%;
+    background-color: #4a4a4a;
+    background-image: url("/img/email.png");
+    background-size: cover;
+    transition: all 0.3s linear;
+    cursor: pointer;
+
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    z-index: 5;
+    /* font-family: Roboto;
+    font-size: 16px;
+    color: #4a4a4a; */
+}
+.head_mail:hover{
+    background-color: #ff7800;
+    border: 2px solid #ff7800;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.head_mail_txt{
+    width: 28px;
+    height: 28px;
+    border: 2px solid #4a4a4a;
+    border-radius: 50%;
+    background-color: #4a4a4a;
+    
+    position: absolute;
+    overflow: hidden;
+    top: 5px;
+    right: 15px;
+    transition: all 0.3s linear;
+}
+.head_mail:hover + .head_mail_txt{
+    width: 158px;
+    border-radius: 28px;
+}
+.mail{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 5px;
+}
+
+.footer{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    /* background-color: #3d6300; */
+}
+
+.copyrigth{
+    padding-left: 15px;
+    width: max-content;
+    cursor: default;
+}
+
+.copyrigth-txt{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+.network{
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+.social{
+    width: 28px;
+    height: 28px;
+    border: 2px solid #4a4a4a;
+    border-radius: 50%;
+    background-color: #4a4a4a;
+    display: inline-block;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.telegram{
+    background-image: url("/img/telegram.png");
+    background-size: cover;
+}
+.vk{
+    background-image: url("/img/vk.png");
+    background-size: cover;
+}
+.facebook{
+    background-image: url("/img/facebook.png");
+    background-size: cover;
+}
+.social:hover{
+    background-color: #ff7800;
+    border: 2px solid #ff7800;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
