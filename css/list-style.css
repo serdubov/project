@@ -20,6 +20,7 @@ main-dark: #4a4a4a*/
 .header{
     width: 100%;
     position: absolute;
+    z-index: 10;
     top: 15px;
 }
 .button_logo{
@@ -102,7 +103,9 @@ main-dark: #4a4a4a*/
     font-family: Roboto;
     font-size: 16px;
     color: #fff;
-    padding-left: 5px;
+    left: 5px;
+    position: absolute;
+    /* padding-left: 5px; */
 }
 
 .footer{

@@ -9,6 +9,7 @@
     <link rel="icon" href=​img/favicon.ico type="image/x-icon" />
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <script src="script/jquery.js"></script>
+    <!-- <script src="script/list-query.js"></script> -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/list-style.css" type="text/css">
     <!-- <link rel="stylesheet" href="menu/menu.css" type="text/css">
@@ -19,20 +20,30 @@
 </head>
 <body>
   <div class="wrapper">
-    <div class="block_1 block background-1 shad" id="block_1">
+    <div class="block_1 block position-block background-1 shad" id="block_1">
       <span class="block_text text_1">О нас</span>
     </div>
-    <div class="block_2 block background-2 shad" id="block_2">
+    <div class="block_1 block" id="block_1_1">
+    </div>
+    <div class="block_2 block position-block background-2 shad" id="block_2">
       <span class="block_text text_2">Дизайн</span>
     </div>
-    <div class="block_3 block background-3 shad" id="block_3">
+    <div class="block_2 block " id="block_2_2">
+    </div>
+    <div class="block_3 block position-block background-3 shad" id="block_3">
       <span class="block_text text_3">Проекты</span>
     </div>
-    <div class="block_4 block background-4 shad" id="block_4">
+    <div class="block_3 block " id="block_3_3">
+    </div>
+    <div class="block_4 block position-block background-4 shad" id="block_4">
       <span class="block_text text_4">Специфика</span>
     </div>
-    <div class="block_5 block background-5 shad" id="block_5">
+    <div class="block_4 block " id="block_4_4">
+    </div>
+    <div class="block_5 block position-block background-5 shad" id="block_5">
       <span class="block_text text_5">Заявка</span>
+    </div>
+    <div class="block_5 block " id="block_5_5">
     </div>
   </div>    
 </body>

@@ -1,0 +1,150 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto.ttf');
+}
+
+@font-face{
+    font-family: 'Robotobold';
+    src: url('/fonts/Robotobold.ttf');
+}
+
+@font-face{
+    font-family: 'Robotoregular';
+    src: url('/fonts/Robotoblack.ttf');
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(143, 143, 143); */
+    position: relative;
+    margin: auto;
+}
+
+.head-form{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    padding-top: 80px;
+    text-align: center;
+    border-bottom: 1px solid #d4d4d4;
+}
+.head-form-after{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.content-inside{
+    max-width: 520px;
+    height: max-content;
+    /* background-color: rgb(143, 143, 143); */
+    position: relative;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.form-block-checkbox{
+    display: none;
+}
+
+.checkbox-custom{
+    position: relative;      
+    width: 20px;             
+    height: 20px;            
+    border: 2px solid #ff7800;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.form-block-checkbox:checked + .checkbox-custom::before{
+    content: "";             
+	display: block;			 
+	position: absolute;      
+	top: 2px;
+	right: 2px;
+	bottom: 2px;
+	left: 2px;
+	background: #ff7800;
+	border-radius: 50%;
+}
+
+.form-submit{
+    max-width: 180px;
+    width: 100%;
+    height: 28px;
+    /* padding: 10px; */
+    font-family: Roboto;
+    font-size: 16px;
+    border-radius: 28px;
+    color: #4a4a4a;
+    background-color: #fff;
+    border: none;
+    border: 1px solid #4a4a4a;
+    position: relative;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.form-submit:hover{
+    color: #fff;
+    background-color: #4a4a4a;
+    border: 1px solid #4a4a4a;
+}
+
+.text-p{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #262626;
+}
+
+/* -------------------- */
+
+.brif-head{
+  font-family: Robotobold;
+  font-size: 20px;
+  color: #262626;
+}
+
+.brif-label, .brif-label-off, .brif-subhead, .brif-label-check{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    color: #262626;
+    transition: all 0.2s linear;
+}
+
+
+.brif-input{
+    border: 0px;
+    width: 100%;
+    height: 20px;
+    position: relative;
+    top: -30px;
+    background: none;
+    border-bottom: 1px solid #d4d4d4;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 15px;
+    transition: all 0.2s linear;
+}
+
+.brif-input:hover{
+    border-bottom: 1px solid #4a4a4a;
+}
+
+.brif-input:focus{
+    top: 0;
+    border-bottom: 1px solid #ff7800;
+}
+
+.brif-input:focus + .brif-label{
+    font-size: 12px;
+    color: #ff7800;
+}

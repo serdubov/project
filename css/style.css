@@ -29,7 +29,7 @@
     cursor: pointer;
 }
 
-.shad:hover .block_text{
+.position-block:hover .block_text{
     opacity: 1;
 }
 
@@ -149,4 +149,8 @@
     border-radius: 0;
     z-index: 5;
     background-color: rgb(255, 255, 255);
+}
+
+.position-block{
+    z-index: 2;
 }
